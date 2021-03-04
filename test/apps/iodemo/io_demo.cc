@@ -1366,16 +1366,17 @@ public:
         LOG << "terminate connection " << server_info.conn << " due to "
             << reason;
 
-        // Remove connection pointer
-        _server_index_lookup.erase(server_info.conn);
-
-        // Destroying the connection will complete its outstanding operations
-        delete server_info.conn;
-
         // Don't wait for any more completions on this connection
         _num_sent -= get_num_uncompleted(server_info);
 
+        // Remove connection pointer
+        _server_index_lookup.erase(server_info.conn);
+
+        // Remove active servers entry
         active_servers_remove(server_info.active_index);
+
+        // Destroying the connection will complete its outstanding operations
+        delete server_info.conn;
         reset_server_info(server_info);
     }
 
