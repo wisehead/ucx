@@ -31,4 +31,7 @@ run_server
 --init_worker
 --if (send_recv_type == CLIENT_SERVER_SEND_RECV_AM)
 ----ucp_worker_set_am_recv_handler
+------ucp_worker_set_am_handler_common
+--------
+------ucp_worker_am_init_handler
 ```
