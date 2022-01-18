@@ -43,5 +43,13 @@ run_server
 ----params.conn_handler.arg   = context;
 ----ucp_listener_create(ucp_worker, &params, listener_p);
 ----ucp_listener_query
+--while (1)
+----while (context.conn_request == NULL)
+------ucp_worker_progress(ucp_worker);
+--------uct_worker_progress(worker->uct);
+----------ucs_callbackq_dispatch(&worker->progress_q)
+------------for (elem = cbq->fast_elems; (cb = elem->cb) != NULL; ++elem)
+--------------count += cb(elem->arg);
+--------ucs_async_check_miss(&worker->async);
 ```
 
