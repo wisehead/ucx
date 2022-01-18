@@ -47,5 +47,10 @@ run_server
 --------ucs_sockaddr_get_port
 --------uct_params.conn_request_cb  = ucp_cm_server_conn_request_cb;
 --------uct_params.user_data        = listener;
+--------uct_listeners               = ucs_calloc(num_cms, sizeof(*uct_listeners),uct_listeners_arr");
+--------listener->listeners = uct_listeners;
+--------while (cm_index < num_cms)
+----------ucp_cm = &worker->cms[cm_index++];
+----------
 ```
 
