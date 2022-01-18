@@ -51,6 +51,7 @@ run_server
 --------listener->listeners = uct_listeners;
 --------while (cm_index < num_cms)
 ----------ucp_cm = &worker->cms[cm_index++];
-----------
+----------uct_listener_create
+------------cm->ops->listener_create(cm, saddr, socklen, params, listener_p);
 ```
 
