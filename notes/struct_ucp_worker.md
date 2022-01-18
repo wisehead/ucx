@@ -1,5 +1,4 @@
 #1.struct ucp_worker
-
 ```cpp
 /**
  * UCP worker (thread context).

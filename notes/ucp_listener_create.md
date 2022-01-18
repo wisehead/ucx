@@ -22,5 +22,7 @@ ucp_listener_create(ucp_worker, &params, listener_p);
 ----ucs_vfs_obj_add_ro_file(listener, ucp_listener_vfs_show_ip, NULL, 0, "ip");
 ----ucs_vfs_obj_add_ro_file(listener, ucp_listener_vfs_show_port, NULL, 0, "port");
 --UCS_ASYNC_UNBLOCK(&worker->async);
-
+--while (1)
+----while (context.conn_request == NULL)
+------ucp_worker_progress
 ```
