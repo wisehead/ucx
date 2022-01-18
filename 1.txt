@@ -1,0 +1,547 @@
+LICENSE:Copyright (c) 2014-2015      UT-Battelle, LLC. All rights reserved.
+LICENSE:Copyright (C) 2014-2020      Mellanox Technologies Ltd. All rights reserved.
+LICENSE:Copyright (C) 2014-2015      The University of Houston System. All rights reserved.
+LICENSE:                             of Tennessee Research Foundation. All rights reserved.
+LICENSE:Copyright (C) 2016-2020      ARM Ltd. All rights reserved.
+LICENSE:Copyright (c) 2016           Los Alamos National Security, LLC. All rights reserved.
+LICENSE:Copyright (C) 2016-2020      Advanced Micro Devices, Inc.  All rights reserved.
+LICENSE:Copyright (C) 2019           UChicago Argonne, LLC.  All rights reserved.
+LICENSE:Copyright (c) 2018-2020      NVIDIA CORPORATION. All rights reserved.
+LICENSE:Copyright (C) 2020           Huawei Technologies Co., Ltd. All rights reserved.
+LICENSE:Copyright (C) 2016-2020      Stony Brook University. All rights reserved.
+bindings/java/src/main/native/jucx_common_def.cc:extern "C" JNIEXPORT jint JNICALL JNI_OnLoad(JavaVM *jvm, void* reserved) {
+bindings/java/src/main/native/jucx_common_def.cc:extern "C" JNIEXPORT void JNICALL JNI_OnUnload(JavaVM *jvm, void *reserved) {
+config/m4/ax_prog_doxygen.m4:#   and this notice are preserved. This file is offered as-is, without any
+config/module-pkg-config.am:# Copyright (C) 2021 Nvidia Corporation. All Rights Reserved.
+contrib/mtt/mtt_ucx_oshmem.ini:# Copyright (c) 2015 Mellanox, Inc.  All rights reserved.
+Binary file cscope.in.out matches
+cscope.out:MEM_RESERVE
+cscope.out:MEM_RESERVE
+cscope.out:	#X86_CPU_CACHE_RESERVED
+cscope.out:X86_CPU_CACHE_RESERVED
+cscope.out:	#UCS_STRING_BUFFER_RESERVE
+cscope.out:UCS_STRING_BUFFER_RESERVE
+cscope.out:	mUCT_CB_FLAG_RESERVED
+cscope.out:UCT_CB_FLAG_RESERVED
+cscope.out:UCT_CB_FLAG_RESERVED
+cscope.out:HAVE_DECL_IBV_EXP_DEVICE_ATTR_RESERVED_2
+cscope.out:IBV_EXP_DEVICE_ATTR_RESERVED_2
+cscope.out:IBV_EXP_DEVICE_ATTR_RESERVED
+cscope.out:	mUCT_IB_MLX5_QPC_PM_STATE_RESERVED
+cscope.out:	mUCT_IB_MLX5_OBJ_TYPE_RESERVED_QPN
+cscope.out:UCT_IB_MLX5_OBJ_TYPE_RESERVED_QPN
+cscope.out:(1, (*blk), "reserved_qpn_blk");
+cscope.out:UCT_IB_MLX5_OBJ_TYPE_RESERVED_QPN
+cscope.out:("mlx5dv_devx_obj_destroy(type=RESERVED_QPN) failed: %m");
+cscope.out:->reserved_qpn;
+debian/copyright:Copyright (c) 2014-2015      UT-Battelle, LLC. All rights reserved.
+debian/copyright:Copyright (C) 2014-2015      Mellanox Technologies Ltd. All rights reserved.
+docs/doxygen/header.tex.in:\fancyfoot[RE]{\fancyplain{}{\bfseries\scriptsize \textcircled{c} \the\year\space Unified Communication X (UCX). All rights reserved. }}
+docs/doxygen/header.tex.in:\fancyfoot[LO]{\fancyplain{}{\bfseries\scriptsize \textcircled{c} \the\year\space Unified Communication X (UCX). All rights reserved. }}
+docs/doxygen/doxygen.am:#   and this notice are preserved. This file is offered as-is, without any
+notes/ucp_client_server.md:--------ucs_array_reserve(ucp_am_cbs, &worker->am.cbs, id + 1)
+notes/ucp_client_server.md:#3. ucs_array_reserve
+notes/ucp_client_server.md:ucs_array_reserve(ucp_am_cbs, &worker->am.cbs, id + 1)
+notes/ucp_client_server.md: * @param _array   Array to reserve buffer for
+notes/ucp_client_server.md:#define ucs_array_reserve(_name, _array, _min_capacity) \
+notes/ucp_client_server.md:    UCS_ARRAY_IDENTIFIER(_name, _reserve)(_array, _min_capacity)
+notes/ucp_client_server.md:ucs_array_ucp_am_cbs_reserve(worker->am.cbs, id+1)
+src/ucm/bistro/bistro_ppc64.c:    /* locate reserved code space in hook function */
+src/ucm/cuda/cudamem.c: * Copyright (c) 2019, NVIDIA CORPORATION. All rights reserved.
+src/ucm/ptmalloc286/malloc.c:  program startup, in an attempt to reserve system memory, doesn't
+src/ucm/ptmalloc286/malloc.c:  void* ptr = VirtualAlloc(0, size, MEM_RESERVE|MEM_COMMIT, PAGE_READWRITE);
+src/ucm/ptmalloc286/malloc.c:  void* ptr = VirtualAlloc(0, size, MEM_RESERVE|MEM_COMMIT|MEM_TOP_DOWN,
+src/ucm/ptmalloc286/malloc.c:        region, which is needed to preserve alignment. Each mmapped
+src/ucm/ptmalloc286/malloc.c:    topsize+TOP_FOOT_SIZE, which includes space reserved for adding
+src/ucp/rndv/rndv_rkey_ptr.c: * Copyright (c) 2021, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+src/ucp/core/ucp_am.c:        status = ucs_array_reserve(ucp_am_cbs, &worker->am.cbs, id + 1);
+src/ucp/wireup/address.c:        /* Preserve wire protocol even though these flags are not used */
+src/ucp/api/ucp.h:     * The size of a reserved space in a non-blocking requests. Typically
+src/ucp/api/ucp.h:     * Reserved for future use.
+src/ucp/api/ucp.h:     * Reserved for future use.
+src/ucp/api/ucp.h:    uint8_t     reserved[16];
+src/ucp/api/ucp.h: * @param [in]   flags     Reserved for future use.
+src/ucp/api/ucp.h: * @param [in] flags     Flags for flush operation. Reserved for future use.
+src/ucp/api/ucp.h: * @param [in]  flags       Reserved for future use.
+src/ucp/api/ucp.h: * @param [in] flags     Flags for flush operation. Reserved for future use.
+src/ucp/rma/amo_offload.c: * Copyright (c) 2021, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+src/uct/cuda/gdr_copy/gdr_copy_md.c: * Copyright (c) 2019, NVIDIA CORPORATION. All rights reserved.
+src/uct/cuda/gdr_copy/gdr_copy_ep.c: * Copyright (c) 2019, NVIDIA CORPORATION. All rights reserved.
+src/uct/cuda/gdr_copy/gdr_copy_md.h: * Copyright (c) 2019, NVIDIA CORPORATION. All rights reserved.
+src/uct/cuda/cuda_ipc/cuda_ipc_ep.c: * Copyright (c) 2018, NVIDIA CORPORATION. All rights reserved.
+src/uct/cuda/cuda_ipc/cuda_ipc_iface.h: * Copyright (c) 2018, NVIDIA CORPORATION. All rights reserved.
+src/uct/cuda/cuda_ipc/cuda_ipc_md.c: * Copyright (c) 2018, NVIDIA CORPORATION. All rights reserved.
+src/uct/cuda/cuda_ipc/cuda_ipc_md.h: * Copyright (c) 2018, NVIDIA CORPORATION. All rights reserved.
+src/uct/cuda/cuda_ipc/cuda_ipc_iface.c: * Copyright (c) 2018, NVIDIA CORPORATION. All rights reserved.
+src/uct/cuda/base/cuda_md.c: * Copyright (c) 2019, NVIDIA CORPORATION. All rights reserved.
+src/uct/tcp/tcp.h: * AM IDs reserved for TCP protocols
+src/uct/tcp/tcp.h:    /* AM ID reserved for TCP internal Connection Manager messages */
+src/uct/tcp/tcp.h:    /* AM ID reserved for TCP internal PUT REQ message */
+src/uct/tcp/tcp.h:    /* AM ID reserved for TCP internal PUT ACK message */
+src/uct/tcp/tcp.h:    /* AM ID reserved for TCP internal keepalive message */
+src/uct/tcp/tcp_iface.c: * Copyright (c) 2019, NVIDIA CORPORATION. All rights reserved.
+src/uct/api/uct.h: * @copyright   NVIDIA Corporation. All rights reserved.
+src/uct/api/uct.h: * @copyright   Mellanox Technologies Ltd. All rights reserved.
+src/uct/api/uct.h:    UCT_CB_FLAG_RESERVED = UCS_BIT(1), /**< Reserved for future use. */
+src/uct/api/uct.h:    /** How much bytes to reserve before the receive segment.*/
+src/uct/api/uct.h: * @param [in] flags    Reserved for future use.
+src/uct/api/v2/uct_v2.h: * @copyright   Mellanox Technologies Ltd. All rights reserved.
+src/uct/api/uct_def.h: *                         The fragments will preserve the original order of the
+src/uct/api/uct_def.h: * @param [in]  flags    Flags to be passed to the callback (reserved for
+src/uct/ib/mlx5/ib_mlx5.c:    /* need to reserve 2x because:
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_0[0x30];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_40[0x40];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_90[0xb];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_a0[0xb];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_b0[0x10];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_c0[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_d0[0xb];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_e8[0x2];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_f0[0x4];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_f6[0x6];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_111[0x1];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_120[0xa];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_130[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_139[0x1];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_140[0xa];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_150[0x2];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_153[0x7];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_165[0xa];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_1b3[0x1];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_1c0[0x1];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_1c8[0x4];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_1d0[0x1];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_1d3[0x2];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_1d8[0x1];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_1f0[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_1f9[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_202[0x1];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_205[0x1];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_20c[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_213[0x1];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_216[0x1];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_21f[0x1];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_223[0x2];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_229[0x1];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_22d[0x1];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_232[0x4];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_239[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_241[0x9];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_250[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_263[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_270[0x6];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_279[0x2];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_280[0x10];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_2a0[0x10];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_2e0[0x7];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_300[0x18];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_320[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_328[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_330[0xb];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_343[0x5];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_360[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_368[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_370[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_378[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_381[0x2];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_388[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_390[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_398[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_3a1[0x2];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_3a8[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_3b0[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_3b8[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_3c1[0x2];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_3c8[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_3d0[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_3d8[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_3e8[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_3f0[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_3f8[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_440[0x40];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_480[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_488[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_4a0[0x20];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_500[0x20];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_540[0x40];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_580[0x3d];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_5e0[0x10];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_5f8[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_618[0x6];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_61f[0x1e1];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_0[0x40];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_42[0x4];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_47[0x19];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_60[0x20];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_80[0x10];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_a0[0x10];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_c0[0x10];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_e0[0x1a0];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_2b0[0x10];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_2c0[0x540];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_0[0x80];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_80[0x13];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:       allocated RESERVED_QPN objects */
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    log_reserved_qpn_granularity[0x5];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_98[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_a0[0x760];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_6[0x1a];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_0[0x40];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_41[0x1f];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_60[0x20];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_100[0x700];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_0[0x8000];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_8[0x18];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_40[0x40];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_20[0x10];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_40[0x40];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_0[0x1d];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_20[0x20];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_8[0x18];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_20[0x10];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_40[0x40];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_20[0xe0];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_104[0xc];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_120[0x20];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_280[0x10];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_296[0x40];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_310[0x4];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_334[0xc];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_360[0xca0];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_8[0x18];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_40[0x40];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_10[0x10];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_20[0x10];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_41[0xb];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_60[0x20];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_0[0x1];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_2[0x1];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_6[0x7];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_e[0x1];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_18[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_40[0x20];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_63[0x2];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_66[0x1];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_120[0x80];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_1c0[0x1b];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_1e0[0x20];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_20[0x10];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_40[0x20];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_63[0xd];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_280[0x80];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_380[0x500];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_8[0x18];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_40[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t    reserved_at_60[0x20];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_8[0x18];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_40[0x40];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_10[0x10];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_20[0x10];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_40[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_60[0x20];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_80[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_88[0x4];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_a0[0xc];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_b0[0x4];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_b8[0x4];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_100[0x80];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_0[0x4];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_8[0x10];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_1c[0x4];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_20[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_40[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_74[0xc];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_80[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_90[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_98[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_a0[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_c0[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_e8[0x4];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_140[0x5];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_160[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_170[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_1a0[0x14];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_1c0[0x40];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_8[0x18];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_40[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_60[0x20];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_20[0x10];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_40[0x40];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_280[0x180];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_8[0x18];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_40[0x40];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_20[0x10];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_40[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_60[0x20];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_34[0xc];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_8[0x18];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_24[0x7];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_40[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_60[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_100[0xc];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_110[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_118[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_122[0x1];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_128[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_130[0x4];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_139[0x4];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_180[0x480];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_4[0xc];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_40[0x40];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_5[0xf];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_18[0x4];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_20[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_40[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_60[0x1f];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_80[0x80];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_180[0x280];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_8[0x18];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_40[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_60[0x20];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_20[0x10];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_40[0x40];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_0[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_c[0x14];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_21[0x1f];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_40[0x140];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_8[0x18];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_40[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_60[0x20];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_20[0x10];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_40[0xc0];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_2[0xe];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_20[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_45[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_60[0x4];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_100[0x4];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_106[0x1];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    UCT_IB_MLX5_QPC_PM_STATE_RESERVED  = 0x2,
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_10[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_15[0x1];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_1e[0x2];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_24[0x1];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_26[0x2];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_48[0x1];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_55[0x6];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_80[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_a0[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_384[0x4];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_38b[0x2];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_393[0x1];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_39b[0x5];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_3a0[0x20];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_3c0[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_3e0[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_400[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_420[0x20];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_440[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_460[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_480[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_48b[0x1];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_493[0x1];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_49a[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_4a0[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_4c0[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_4e0[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_560[0x5];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_580[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_600[0x20];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_620[0xf];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_680[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_684[0x1c];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_6a0[0x80];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_8[0x18];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_40[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_60[0x20];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_20[0x10];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_40[0x40];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_a0[0x20];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_800[0x40];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_861[0x1f];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_8[0x18];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_40[0x40];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_20[0x10];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_40[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_60[0x20];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_a0[0x20];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_800[0x80];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_8[0x18];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_40[0x40];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_20[0x10];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_40[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_60[0x20];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_a0[0x20];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_800[0x80];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_8[0x18];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_40[0x40];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_20[0x10];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_40[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_60[0x20];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_a0[0x20];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_800[0x80];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_8[0x18];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_40[0x40];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_20[0x10];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_40[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_60[0x20];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_8[0x18];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_40[0x40];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_a0[0x20];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_800[0x80];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_10[0x10];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_20[0x10];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_40[0x8];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_60[0x20];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_8[0x18];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_60[0x20];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_20[0x10];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_60[0x3];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_68[0x18];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:struct uct_ib_mlx5_reserved_qpn_bits {
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    uint8_t         reserved_at_0[0x80];
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:struct uct_ib_mlx5_create_reserved_qpn_in_bits {
+src/uct/ib/mlx5/dv/ib_mlx5_ifc.h:    UCT_IB_MLX5_OBJ_TYPE_RESERVED_QPN = 0x002C,
+src/uct/ib/mlx5/ib_mlx5.h:/* do not use direct cast from address of reserved0 to avoid compilation warnings */
+src/uct/ib/mlx5/ib_mlx5.h:                                     ucs_offsetof(struct mlx5_wqe_av, reserved0[0])))
+src/uct/ib/mlx5/ib_mlx5.h:#  define UCT_IB_MLX5_AV_BASE_SIZE  ucs_offsetof(struct mlx5_wqe_av, reserved0[0])
+src/uct/ib/mlx5/ib_mlx5.h:        uint8_t         reserved0[4];
+src/uct/ib/mlx5/ib_mlx5.h:    uint32_t           reserved[2];
+src/uct/ib/mlx5/ib_mlx5.inl:                _mm_set_epi8(0, 0, 0, 0,            /* reserved */
+src/uct/ib/mlx5/ib_mlx5.inl:                         16,16,16,16};             /* reserved (set 0) */
+src/uct/ib/mlx5/ib_mlx5.inl:                        16, 16,          /* reserved (set 0) */
+src/uct/ib/mlx5/ib_mlx5.inl:                                 0, 0,       /* reserved */
+src/uct/ib/mlx5/ib_mlx5.inl:                        16, 16,          /* reserved (set 0) */
+src/uct/ib/mlx5/ib_mlx5.inl:                                 0, 0,         /* reserved */
+src/uct/ib/mlx5/ib_mlx5.inl:     * reserved QP space for at least UCT_IB_MLX5_MAX_BB to accommodate.
+src/uct/ib/rdmacm/rdmacm_cm_ep.h:    uct_rdmacm_cm_reserved_qpn_blk_t *blk; /* The pointer of used qpn blk */
+src/uct/ib/rdmacm/rdmacm_cm_ep.h:    uint32_t                         qpn;  /* Reserved qp number */
+src/uct/ib/rdmacm/rdmacm_cm.h:        ucs_ternary_auto_value_t           reserved_qpn;
+src/uct/ib/rdmacm/rdmacm_cm.h:    ucs_ternary_auto_value_t reserved_qpn;
+src/uct/ib/rdmacm/rdmacm_cm.h:/** A reserved qpn block */
+src/uct/ib/rdmacm/rdmacm_cm.h:typedef struct uct_rdmacm_cm_reserved_qpn_blk {
+src/uct/ib/rdmacm/rdmacm_cm.h:} uct_rdmacm_cm_reserved_qpn_blk_t;
+src/uct/ib/rdmacm/rdmacm_cm.h:    int             use_reserved_qpn;
+src/uct/ib/rdmacm/rdmacm_cm.h:    uint32_t        log_reserved_qpn_granularity;
+src/uct/ib/rdmacm/rdmacm_cm.h:uct_rdmacm_cm_reserved_qpn_blk_alloc(uct_rdmacm_cm_device_context_t *ctx,
+src/uct/ib/rdmacm/rdmacm_cm.h:                                     uct_rdmacm_cm_reserved_qpn_blk_t **blk_p);
+src/uct/ib/rdmacm/rdmacm_cm.h:void uct_rdmacm_cm_reserved_qpn_blk_release(
+src/uct/ib/rdmacm/rdmacm_cm.h:        uct_rdmacm_cm_reserved_qpn_blk_t *blk);
+src/uct/ib/rdmacm/rdmacm_cm_ep.c: * Allocate a reserved QPN either from the last FW object allocated,
+src/uct/ib/rdmacm/rdmacm_cm_ep.c:uct_rdamcm_cm_ep_create_reserved_qpn(uct_rdmacm_cm_ep_t *cep,
+src/uct/ib/rdmacm/rdmacm_cm_ep.c:    uint32_t qpns_per_obj = UCS_BIT(ctx->log_reserved_qpn_granularity);
+src/uct/ib/rdmacm/rdmacm_cm_ep.c:    uct_rdmacm_cm_reserved_qpn_blk_t *blk;
+src/uct/ib/rdmacm/rdmacm_cm_ep.c:    blk = ucs_list_tail(&ctx->blk_list, uct_rdmacm_cm_reserved_qpn_blk_t, entry);
+src/uct/ib/rdmacm/rdmacm_cm_ep.c:        status = uct_rdmacm_cm_reserved_qpn_blk_alloc(ctx, cep->id->verbs,
+src/uct/ib/rdmacm/rdmacm_cm_ep.c:    ucs_debug("created reserved qpn 0x%x on rdmacm_id %p",
+src/uct/ib/rdmacm/rdmacm_cm_ep.c: * Deallocate a reserved QPN. The FW object is destroyed only when all QPNs
+src/uct/ib/rdmacm/rdmacm_cm_ep.c:uct_rdamcm_cm_ep_destroy_reserved_qpn(uct_rdmacm_cm_device_context_t *ctx,
+src/uct/ib/rdmacm/rdmacm_cm_ep.c:    /* Reserved QP number is created on-demand when we send the private data */
+src/uct/ib/rdmacm/rdmacm_cm_ep.c:    ucs_debug("cm ep destroy reserved qpn 0x%x on rdmacm_id %p",
+src/uct/ib/rdmacm/rdmacm_cm_ep.c:    qpns_per_obj = UCS_BIT(ctx->log_reserved_qpn_granularity);
+src/uct/ib/rdmacm/rdmacm_cm_ep.c:        uct_rdmacm_cm_reserved_qpn_blk_release(cep->blk);
+src/uct/ib/rdmacm/rdmacm_cm_ep.c:    if (ctx->use_reserved_qpn) {
+src/uct/ib/rdmacm/rdmacm_cm_ep.c:        status = uct_rdamcm_cm_ep_create_reserved_qpn(cep, ctx);
+src/uct/ib/rdmacm/rdmacm_cm_ep.c:    if (ctx->use_reserved_qpn) {
+src/uct/ib/rdmacm/rdmacm_cm_ep.c:    if (ctx->use_reserved_qpn) {
+src/uct/ib/rdmacm/rdmacm_cm_ep.c:        uct_rdamcm_cm_ep_destroy_reserved_qpn(ctx, cep);
+src/uct/ib/rdmacm/rdmacm_cm.c:    uct_rdmacm_cm_reserved_qpn_blk_t *blk;
+src/uct/ib/rdmacm/rdmacm_cm.c:    if (cm->config.reserved_qpn == UCS_NO) {
+src/uct/ib/rdmacm/rdmacm_cm.c:    if (!(general_obj_types_caps & UCS_BIT(UCT_IB_MLX5_OBJ_TYPE_RESERVED_QPN))) {
+src/uct/ib/rdmacm/rdmacm_cm.c:        ucs_debug("%s general_obj_types_caps: reserved qpn is not support", dev_name);
+src/uct/ib/rdmacm/rdmacm_cm.c:    ctx->log_reserved_qpn_granularity =
+src/uct/ib/rdmacm/rdmacm_cm.c:            UCT_IB_MLX5DV_GET(cmd_hca_cap_2, cap, log_reserved_qpn_granularity);
+src/uct/ib/rdmacm/rdmacm_cm.c:    /* Try-allocate a reserved QPN block. If fails, fallback to dummy QP. */
+src/uct/ib/rdmacm/rdmacm_cm.c:    status = uct_rdmacm_cm_reserved_qpn_blk_alloc(ctx, verbs,
+src/uct/ib/rdmacm/rdmacm_cm.c:    uct_rdmacm_cm_reserved_qpn_blk_release(blk);
+src/uct/ib/rdmacm/rdmacm_cm.c:    ucs_debug("%s reserved qpn cap: log_reserved_qpn_granularity is 0x%x",
+src/uct/ib/rdmacm/rdmacm_cm.c:              dev_name, ctx->log_reserved_qpn_granularity);
+src/uct/ib/rdmacm/rdmacm_cm.c:    ctx->use_reserved_qpn = 1;
+src/uct/ib/rdmacm/rdmacm_cm.c:    if (cm->config.reserved_qpn == UCS_YES) {
+src/uct/ib/rdmacm/rdmacm_cm.c:        ucs_error("%s: reserved qpn is not supported, failed to use it", dev_name);
+src/uct/ib/rdmacm/rdmacm_cm.c:    ctx->use_reserved_qpn = 0;
+src/uct/ib/rdmacm/rdmacm_cm.c:    uct_rdmacm_cm_reserved_qpn_blk_t *blk, *tmp;
+src/uct/ib/rdmacm/rdmacm_cm.c:    if (ctx->use_reserved_qpn) {
+src/uct/ib/rdmacm/rdmacm_cm.c:            uct_rdmacm_cm_reserved_qpn_blk_release(blk);
+src/uct/ib/rdmacm/rdmacm_cm.c:uct_rdmacm_cm_reserved_qpn_blk_alloc(uct_rdmacm_cm_device_context_t *ctx,
+src/uct/ib/rdmacm/rdmacm_cm.c:                                     uct_rdmacm_cm_reserved_qpn_blk_t **blk_p)
+src/uct/ib/rdmacm/rdmacm_cm.c:    char in[UCT_IB_MLX5DV_ST_SZ_BYTES(create_reserved_qpn_in)]   = {};
+src/uct/ib/rdmacm/rdmacm_cm.c:    uct_rdmacm_cm_reserved_qpn_blk_t *blk;
+src/uct/ib/rdmacm/rdmacm_cm.c:    blk = ucs_calloc(1, sizeof(*blk), "reserved_qpn_blk");
+src/uct/ib/rdmacm/rdmacm_cm.c:    attr = UCT_IB_MLX5DV_ADDR_OF(create_reserved_qpn_in, in, hdr);
+src/uct/ib/rdmacm/rdmacm_cm.c:         attr, obj_type, UCT_IB_MLX5_OBJ_TYPE_RESERVED_QPN);
+src/uct/ib/rdmacm/rdmacm_cm.c:         attr, log_obj_range, ctx->log_reserved_qpn_granularity);
+src/uct/ib/rdmacm/rdmacm_cm.c:                "type=RESERVED_QPN granularity=%d) failed, "
+src/uct/ib/rdmacm/rdmacm_cm.c:                ctx->log_reserved_qpn_granularity,
+src/uct/ib/rdmacm/rdmacm_cm.c:    ucs_trace("%s: created reserved QPN 0x%x count %u blk %p",
+src/uct/ib/rdmacm/rdmacm_cm.c:              1 << ctx->log_reserved_qpn_granularity, blk);
+src/uct/ib/rdmacm/rdmacm_cm.c:void uct_rdmacm_cm_reserved_qpn_blk_release(
+src/uct/ib/rdmacm/rdmacm_cm.c:        uct_rdmacm_cm_reserved_qpn_blk_t *blk)
+src/uct/ib/rdmacm/rdmacm_cm.c:        ucs_error("mlx5dv_devx_obj_destroy(type=RESERVED_QPN) failed: %m");
+src/uct/ib/rdmacm/rdmacm_cm.c:    ucs_trace("destroyed reserved QPN 0x%x blk %p", blk->first_qpn, blk);
+src/uct/ib/rdmacm/rdmacm_cm.c:    self->config.reserved_qpn = rdmacm_config->reserved_qpn;
+src/uct/ib/rdmacm/rdmacm_component.c: * Copyright (c) 2019, NVIDIA CORPORATION. All rights reserved.
+src/uct/ib/rdmacm/rdmacm_component.c:    {"RESERVED_QPN", "try",
+src/uct/ib/rdmacm/rdmacm_component.c:     "Reserved qpn enable mode:\n"
+src/uct/ib/rdmacm/rdmacm_component.c:     "  yes  - Always use reserved qpn, app fail if it's not supported\n"
+src/uct/ib/rdmacm/rdmacm_component.c:     "  try  - Use reserved qpn if it's supported, otherwise use dummy qp\n"
+src/uct/ib/rdmacm/rdmacm_component.c:     ucs_offsetof(uct_rdmacm_cm_config_t, reserved_qpn),
+src/uct/ib/ud/verbs/ud_verbs.c:    /* need to reserve 1 iov for am zcopy header */
+src/uct/ib/ud/base/ud_iface.c:    /* grow reserved skb's queue on-demand */
+src/uct/ib/ud/base/ud_iface.c:    * "The first 40 bytes of user posted UD Receive Buffers are reserved for the L3
+src/uct/ib/ud/base/ud_iface.c:    * reserved 40 bytes area (i.e. offset 20 from the beginning of the receive
+src/uct/ib/ud/base/ud_def.h:            uint8_t reserved:2;
+src/uct/ib/ud/base/ud_iface.h:    uint8_t                     reserved[3];
+src/uct/ib/configure.m4:       AC_CHECK_DECLS(IBV_EXP_DEVICE_ATTR_RESERVED_2, [], [],
+src/uct/ib/dc/dc_mlx5.c:        /* To preserve ordering we have to dispatch all pending
+src/uct/ib/dc/dc_mlx5.h:    uint32_t    reserved;    /* must be zero */
+src/uct/ib/dc/dc_mlx5.h:    ravh->reserved      = 0;
+src/uct/ib/rc/accel/rc_mlx5_common.c:    uct_rc_mlx5_tmh_priv_data_t *priv = (uct_rc_mlx5_tmh_priv_data_t*)tmh->reserved;
+src/uct/ib/rc/accel/rc_mlx5_common.h:/* TMH can carry 2 bytes of data in its reserved filed */
+src/uct/ib/rc/accel/rc_mlx5_common.h:    uct_rc_mlx5_tmh_priv_data_t *priv = (uct_rc_mlx5_tmh_priv_data_t*)tmh->reserved;
+src/uct/ib/rc/accel/rc_mlx5_common.h:     * rest to the TMH reserved field. */
+src/uct/ib/rc/verbs/rc_verbs_iface.c:   "Buffer size to reserve for active message headers. If set to 0, the transport will\n"
+src/uct/ib/rc/verbs/rc_verbs_ep.c:    struct ibv_sge sge[UCT_IB_MAX_IOV]; /* First sge is reserved for the header */
+src/uct/ib/rc/base/rc_ep.h:    /* reserve cq credits for every posted operation,
+src/uct/ib/rc/base/rc_iface.c:        /* To preserve ordering we have to dispatch all pending
+src/uct/ib/base/ib_verbs.h:#if HAVE_DECL_IBV_EXP_DEVICE_ATTR_RESERVED_2
+src/uct/ib/base/ib_verbs.h:    attr->comp_mask_2 = IBV_EXP_DEVICE_ATTR_RESERVED_2 - 1;
+src/uct/ib/base/ib_verbs.h:    attr->comp_mask = IBV_EXP_DEVICE_ATTR_RESERVED - 1;
+src/uct/ib/base/ib_iface.c:   "Bytes to reserve in send WQE for inline data. Messages which are small\n"
+src/uct/ib/base/ib_iface.c:   "Bytes to reserve in send WQE for inline response. Responses which are small\n"
+src/uct/ib/base/ib_iface.c:   "Number of SG entries to reserve in the send WQE.",
+src/uct/ib/base/ib_iface.c:    /* Preserve the default alignment by UCT header if user does not request
+src/uct/ib/base/ib_iface.h:        size_t              min_inline;      /* Inline space to reserve for sends */
+src/uct/ib/base/ib_iface.h:    /* Inline space to reserve in CQ */
+src/uct/ib/base/ib_iface.h:    unsigned    rx_priv_len;            /* Length of transport private data to reserve */
+src/uct/base/uct_iface.h:        if ((_flags) & UCT_CB_FLAG_RESERVED) { \
+src/uct/base/uct_iface.h:            ucs_error("Unsupported callback flag 0x%x", UCT_CB_FLAG_RESERVED); \
+src/ucs/memory/memtype_cache.c:    /* slice old regions by the new region, to preserve the previous memory type
+src/ucs/config/parser.h: * @param max        Number of bytes reserved in 'value'.
+src/ucs/algorithm/qsort_r.c: *      The Regents of the University of California.  All rights reserved.
+src/ucs/algorithm/qsort_r.h: *      The Regents of the University of California.  All rights reserved.
+src/ucs/sys/sock.h: * Copyright (c) 2019, NVIDIA CORPORATION. All rights reserved.
+src/ucs/sys/sock.c:* Copyright (c) 2019, NVIDIA CORPORATION. All rights reserved.
+src/ucs/type/status.h: * @copyright   Mellanox Technologies Ltd. All rights reserved.
+src/ucs/type/status.h: * @copyright   The University of Tennessee and the University of Tennessee research foundation. All rights reserved.
+src/ucs/arch/aarch64/cpu.h:     * [31]    -         Reserved, RES1.
+src/ucs/arch/aarch64/cpu.h:     * [30]    -         Reserved, RES0.
+src/ucs/arch/aarch64/cpu.h:     * [13:4]  -         Reserved, res0.
+src/ucs/arch/x86_64/cpu.c:#define X86_CPU_CACHE_RESERVED    0x80000000
+src/ucs/datastruct/string_buffer.c:/* Minimal reserve size when appending new data */
+src/ucs/datastruct/string_buffer.c:#define UCS_STRING_BUFFER_RESERVE  32
+src/ucs/datastruct/string_buffer.c:    ucs_array_reserve(string_buffer, &strb->str,
+src/ucs/datastruct/string_buffer.c:                      ucs_array_length(&strb->str) + UCS_STRING_BUFFER_RESERVE);
+src/ucs/datastruct/string_buffer.c:        status = ucs_array_reserve(string_buffer, &strb->str,
+src/ucs/datastruct/string_buffer.c:    ucs_array_reserve(string_buffer, &strb->str, prev_length + hexdump_length);
+src/ucs/datastruct/sglib.h:  All operations suppose that the list is sorted and they preserve
+src/ucs/datastruct/array.inl:    UCS_ARRAY_IDENTIFIER(_name, _reserve)(ucs_array_t(_name) *array, \
+src/ucs/datastruct/array.inl:        status = UCS_ARRAY_IDENTIFIER(_name, _reserve)(array, array->length + 1); \
+src/ucs/datastruct/array.h:    UCS_ARRAY_IDENTIFIER(_name, _reserve)(ucs_array_t(_name) *array, \
+src/ucs/datastruct/array.h: * @param _array   Array to reserve buffer for
+src/ucs/datastruct/array.h:#define ucs_array_reserve(_name, _array, _min_capacity) \
+src/ucs/datastruct/array.h:    UCS_ARRAY_IDENTIFIER(_name, _reserve)(_array, _min_capacity)
+src/ucs/datastruct/callbackq.h:     * Array of fast-path element, the last is reserved as a sentinel to mark
+src/ucs/datastruct/mpool_set.h: * (max_mp_entry_size in ucs_mpool_set_init). MSB is reserved to indicate
+src/ucs/datastruct/ptr_array.h: * This decision was made in order to preserve the O(1) performance of
+src/ucs/stats/serialization.c:    uint32_t   reserved;
+src/ucs/stats/serialization.c:    hdr.reserved    = 0;
